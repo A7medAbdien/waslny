@@ -1,6 +1,4 @@
-import FoldedMenu from "@/components/foldedMenu/FoldedMenu";
 import FoldedMenuDrivers from "@/components/foldedMenu/FoldedMenuDrivers";
-import ServicesSection from "@/components/secitons/ServicesSection";
 import TripFormSectionParent from "@/components/secitons/TripFormSectionParent";
 import SectionHeader from "@/components/sectoin-layout/SectionHeader";
 import nathan from '@/public/imgs/nathan.jpeg';
