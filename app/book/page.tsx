@@ -24,7 +24,7 @@ export default function ParentPage() {
             </div>
 
             <div className="w-full mt-20">
-                <FoldedMenuDrivers data={drivers} />
+                {/* <FoldedMenuDrivers data={drivers} /> */}
             </div>
         </main>
     );
