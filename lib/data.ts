@@ -7,34 +7,35 @@ import image1 from '@/public/imgs/cover1.png';
 import image2 from '@/public/imgs/cover2.png';
 import image3 from '@/public/imgs/cover3.png';
 
-export const links = [
-  {
-    title: "Home",
-    color: "home-bg",
-    url: "/",
-  },
-  {
-    title: "Services",
-    color: "services-bg",
-    url: "/services",
-    subServices: services
-  },
-  {
-    title: "About Us",
-    color: "about-bg",
-    url: "/about",
-  },
-  {
-    title: "Contact",
-    color: "contact-bg",
-    url: "/contact",
-  },
-  {
-    title: "Blog",
-    color: "blog-bg",
-    url: "/blog",
-  },
-];
+export const links = []
+// export const links = [
+//   {
+//     title: "Home",
+//     color: "home-bg",
+//     url: "/",
+//   },
+//   {
+//     title: "Services",
+//     color: "services-bg",
+//     url: "/services",
+//     subServices: services
+//   },
+//   {
+//     title: "About Us",
+//     color: "about-bg",
+//     url: "/about",
+//   },
+//   {
+//     title: "Contact",
+//     color: "contact-bg",
+//     url: "/contact",
+//   },
+//   {
+//     title: "Blog",
+//     color: "blog-bg",
+//     url: "/blog",
+//   },
+// ];
 
 export const initialMainServicesData: Service = { id: "", title: "title", description: "description", img: "null", url: "/" }
 

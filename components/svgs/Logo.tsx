@@ -1,13 +1,12 @@
-import image2 from '@/public/imgs/logo.jpeg';
+import logoSvg from '@/public/imgs/logo.png';
 import Image from 'next/image';
 
-
 export default function Logo() {
-   return <div className="w-full h-full overflow-hidden">
+   return <div className="w-40 h-full overflow-hidden">
       <Image
-         width={400}
-         height={400}
-         src={image2}
+         width={600}
+         height={600}
+         src={logoSvg}
          alt=''
          className="w-full h-full"
       />
