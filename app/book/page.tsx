@@ -30,7 +30,7 @@ export default function ParentPage() {
     );
 }
 
-export const drivers = [
+const drivers = [
     {
         id: "nathan",
         name: "Nathan",
