@@ -11,25 +11,6 @@ const driverData = {
     pageDescription: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit rerum, ullam cum illum soluta beatae."
 }
 
-export default function ParentPage() {
-    return (
-        <main className="flex flex-col items-center px-4">
-
-            <SectionHeader title={driverData.pageTitle} description={driverData.pageDescription} />
-
-            <div
-                className={`section-body-bg w-screen min-h-[60vh] rounded-[6rem] md:rounded-[9rem] leading-6 flex flex-col justify-center items-center`}
-            >
-                <TripFormSectionParent negativeMargin />
-            </div>
-
-            <div className="w-full mt-20">
-                {/* <FoldedMenuDrivers data={drivers} /> */}
-            </div>
-        </main>
-    );
-}
-
 const drivers = [
     {
         id: "nathan",
@@ -59,5 +40,24 @@ const drivers = [
         img: yazin,
     },
 ]
+
+export default function ParentPage() {
+    return (
+        <main className="flex flex-col items-center px-4">
+
+            <SectionHeader title={driverData.pageTitle} description={driverData.pageDescription} />
+
+            <div
+                className={`section-body-bg w-screen min-h-[60vh] rounded-[6rem] md:rounded-[9rem] leading-6 flex flex-col justify-center items-center`}
+            >
+                <TripFormSectionParent negativeMargin />
+            </div>
+
+            <div className="w-full mt-20">
+                {/* <FoldedMenuDrivers data={drivers} /> */}
+            </div>
+        </main>
+    );
+}
 
 
