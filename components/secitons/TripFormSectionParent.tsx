@@ -158,7 +158,7 @@ const SelectDropdown: React.FC = () => {
         <div>
             <select className='bg-transparent w-full h-10 rounded-3xl mt-5 text-xl border-[3px] SocialMediaLinks-border-color px-4' value={selectedOption} onChange={handleOptionChange}>
                 {selectData.map(
-                    (option, index) => (<option >{option}</option>))}
+                    (option, index) => (<option key={index}>{option}</option>))}
             </select>
         </div>
     );
